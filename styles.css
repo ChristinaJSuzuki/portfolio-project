@@ -1,11 +1,18 @@
+html {
+    margin: 0px 26px;
+    background-color: black;
+}
+
 h1 {
     color: whitesmoke;
     font-family: 'Newsreader', serif;
+    font-size: 80px;
 }
 
 h5 {
     color: whitesmoke;
     font-family: 'Newsreader', serif;
+    font-size: 16px;
 }
 
 p {
@@ -14,5 +21,11 @@ p {
 }
 
 .hero {
+    margin-top: 60px;
     background-color: black;
+}
+
+.hero p {
+    text-align: left;
+    font-size: 30px;
 }
