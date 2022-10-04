@@ -85,8 +85,15 @@ img {
 }
 
 .about-me {
-    font-size: 50px;
+    font-size: 45px;
     color: black;
+}
+
+.about-name {
+    color: black;
+    background-color: whitesmoke;
+    font-size: 30px;
+
 }
 
 .about-section {
@@ -94,7 +101,7 @@ img {
 }
 
 .about-description {
-    font-size: 25px;
+    font-size: 27px;
     color: black;
     background-color: whitesmoke;
 }
@@ -108,22 +115,31 @@ img {
     font-size: 25px;
     text-decoration: underline;
     color: whitesmoke;
+    padding-top: 50px;
 }
 
 .focus-categories {
     font-size: 25px;
     text-decoration: underline;
+    padding-top: 40px;
 }
 
 .skills-categories {
     font-size: 25px;
     text-decoration: underline;
     color: whitesmoke;
+    padding-top: 20px;
 }
 
 .skills {
     font-size: 18px;
     text-align: center;
+}
+
+.skills-skills {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .focus-skills {
@@ -157,6 +173,7 @@ img {
 
 .contact {
     font-size: 25px;
+    padding-top: 150px;
 }
 
 .contact-email {
@@ -179,6 +196,7 @@ img {
 .contact-socialmedia {
     color: whitesmoke;
     font-size: 25px;
+    padding-top: 150px;
 }
 
 
@@ -223,7 +241,7 @@ img {
 
     .black-background-focus {
         background-color: whitesmoke;
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 50px;
     }
 
