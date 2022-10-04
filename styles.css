@@ -76,6 +76,111 @@ img {
     text-align: right;
 }
 
+.christina {
+    width: 100%;
+}
+
+.photo-of-christina {
+    padding: 0;
+}
+
+.about-me {
+    font-size: 50px;
+    color: black;
+}
+
+.about-section {
+    background-color: whitesmoke;
+}
+
+.about-description {
+    font-size: 25px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.categories {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.languages-categories {
+    font-size: 25px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.focus-categories {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.skills-categories {
+    font-size: 25px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.skills {
+    font-size: 18px;
+    text-align: center;
+}
+
+.focus-skills {
+    font-size: 18px;
+    text-align: center;
+}
+
+.black-background-languages {
+    background-color: black;
+}
+
+.black-background-focus {
+    background-color: black;
+}
+
+.black-background-skills {
+    background-color: black;
+}
+
+.black-background-skills {
+    background-color: black;
+}
+
+.black-background-contact {
+    background-color: black;
+}
+
+.black-background-socialmedia {
+    background-color: black;
+}
+
+.contact {
+    font-size: 25px;
+}
+
+.contact-email {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.chris-email {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.social-media {
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact-socialmedia {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
 
 @media (max-width:960px) {
 
@@ -83,6 +188,10 @@ img {
         padding: 0;
         text-align: center;
         width: 100%;
+    }
+
+    .chris-email {
+        font-size: 12px;
     }
 
 
@@ -98,5 +207,63 @@ img {
 
     img {
         width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .about-me {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .about-description {
+        font-size: 20px;
+    }
+
+    .black-background-focus {
+        background-color: whitesmoke;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .black-background-contact {
+        background-color: whitesmoke;
+    }
+
+    .black-background-languages {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .black-background-skills {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    h1,
+    .focus-categories {
+        color: black;
+    }
+
+    .focus-skills {
+        color: black;
+    }
+
+    .contact {
+        padding-top: 150px;
+    }
+
+    .contact-email {
+        color: black;
+    }
+
+    .chris-email {
+        color: black;
+        font-size: 18px;
+    }
+
+    .contact-socialmedia {
+        padding-top: 150px;
     }
 }
