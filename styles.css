@@ -45,7 +45,6 @@ img {
 }
 
 
-
 .hero {
     margin-top: 60px;
     background-color: black;
@@ -75,6 +74,7 @@ img {
 .sushi-image {
     text-align: right;
 }
+
 
 .christina {
     width: 100%;
@@ -200,6 +200,29 @@ img {
 }
 
 
+
+.makizushi-app-image {
+    padding-top: 50px;
+}
+
+.weather-app-image {
+
+    text-align: right;
+}
+
+.portfolio-app-image {
+    padding-top: 40px;
+}
+
+.btn-app {
+    text-decoration: none;
+}
+
+.btn-app :hover {
+    color: blue;
+}
+
+
 @media (max-width:960px) {
 
     .project-description {
@@ -283,5 +306,78 @@ img {
 
     .contact-socialmedia {
         padding-top: 150px;
+    }
+}
+
+
+
+@media (max-width:960px) {
+
+    .sushi-title {
+        font-size: 35px;
+    }
+
+    .sushi-text {
+        font-size: 18px;
+    }
+
+    .weather-title {
+        font-size: 35px;
+    }
+
+    .weather-text {
+        font-size: 18px;
+    }
+
+    .portfolio-title {
+        font-size: 35px;
+    }
+
+    .portfolio-text {
+        font-size: 18px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+
+    .web {
+        color: whitesmoke;
+        font-size: 40px;
+    }
+
+    .and {
+        color: whitesmoke;
+        font-size: 40px;
+    }
+
+    .app {
+        color: whitesmoke;
+        font-size: 40px;
+    }
+
+    .sushi-title {
+        font-size: 35px;
+    }
+
+    .sushi-text {
+        font-size: 20px;
+    }
+
+    .weather-title {
+        font-size: 35px;
+    }
+
+    .weather-text {
+        font-size: 20px;
+    }
+
+    .portfolio-title {
+        font-size: 35px;
+    }
+
+    .portfolio-text {
+        font-size: 20px;
     }
 }
