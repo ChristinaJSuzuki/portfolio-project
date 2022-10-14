@@ -368,6 +368,7 @@ img {
 
     .weather-text {
         font-size: 18px;
+        padding-left: 20px;
     }
 
     .portfolio-title {
@@ -376,6 +377,14 @@ img {
 
     .portfolio-text {
         font-size: 18px;
+    }
+
+    .img-fluid {
+        width: 400px;
+    }
+
+    .project-description {
+        padding-right: 20px;
     }
 
 
