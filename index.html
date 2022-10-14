@@ -28,9 +28,42 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Christina J. Suzuki</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon justify-content-end"></span>
+            </button>
+            <span class="job-title mt-4 mb-3 d-none d-md-block">Developer, Graphic Designer</span>
+            <div class="collapse navbar-collapse mt-5 justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Art Work
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/graphics.html">Graphic Design</a></li>
+                            <li><a class="dropdown-item" href="/developer.html">Web/App Development</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="hero">
-        <video src="video/portfolio (1).mov" controls autoplay loop muted></video>
-        <div class="caption">
+        <video class="hero-video" src="video/portfolio (1).mov" controls autoplay loop muted></video>
+        <div class="caption mt-5">
             <h5>creative</h5>
             <h1>Designer</h1>
             <h1>&</h1>
@@ -43,7 +76,7 @@
             <br />
         </div>
     </div>
-    <p class="mb-5 text-center">
+    <p class="mt-5 mb-5 text-center">
         Hi, I am Christina Suzuki. I am a front-end developer and
         graphic designer from Tokyo, based in USA/ Canada.
     </p>
@@ -65,7 +98,7 @@
                         visually pleasant art that catches people’s
                         attention.
                     </p>
-                    <a href="#" class="btn-branding mt-5 mb-5">GO TO PROJECTS</a>
+                    <a href="/graphics.html" class="btn-branding mt-5 mb-5">GO TO PROJECTS</a>
                 </div>
             </div>
         </div>
@@ -82,7 +115,7 @@
                         and will continue to make websites and apps
                         that are useful as well unique and stylish.
                     </p>
-                    <a href="#" class="btn-branding">GO TO PROJECTS</a>
+                    <a href="/developer.html" class="btn-branding">GO TO PROJECTS</a>
                 </div>
             </div>
             <div class="col mt-5 sushi-image">
