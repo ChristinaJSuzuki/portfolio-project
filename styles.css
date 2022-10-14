@@ -250,6 +250,18 @@ img {
     margin: 0;
 }
 
+.chocolati {
+    padding-left: 80px;
+}
+
+.pop {
+    padding-left: 80px;
+}
+
+.more {
+    padding-left: 80px;
+}
+
 
 
 @media (max-width:960px) {
@@ -408,5 +420,94 @@ img {
 
     .portfolio-text {
         font-size: 20px;
+    }
+}
+
+@media (max-width:960px) {
+
+    .video-graphics-1 {
+        font-size: 35px;
+        padding-top: 25px;
+    }
+
+    .video-graphics-seattle {
+        font-size: 30px;
+    }
+
+    .video-graphics-2 {
+        font-size: 35px;
+        padding-top: 25px;
+    }
+
+    .video-graphics-3 {
+        font-size: 35px;
+        padding-top: 25px;
+    }
+
+    .chocolati video {
+        height: 500px;
+        width: 350px;
+    }
+
+    .pop video {
+        height: 500px;
+        width: 350px;
+    }
+
+    .more video {
+        height: 500px;
+        width: 350px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .graphic-art {
+        font-size: 40px;
+        color: whitesmoke;
+    }
+
+    .design {
+        font-size: 40px;
+        color: whitesmoke;
+    }
+
+    .video-graphics-1 {
+        font-size: 35px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .video-graphics-seattle {
+        font-size: 30px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .chocolati video {
+        height: 500px;
+        width: 300px;
+    }
+
+    .video-graphics-2 {
+        font-size: 35px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .pop video {
+        height: 500px;
+        width: 300px;
+    }
+
+    .video-graphics-3 {
+        font-size: 35px;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .more video {
+        height: 500px;
+        width: 300px;
     }
 }
