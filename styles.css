@@ -357,6 +357,10 @@ img {
 
 @media (max-width:576px) {
 
+    p {
+        padding-top: 100px;
+    }
+
     .about-me {
         font-size: 40px;
         padding-top: 20px;
@@ -696,7 +700,7 @@ img {
 
 @media (max-width:576px) {
     .caption {
-        padding-top: 170px;
+        padding-top: 150px;
     }
 }
 
